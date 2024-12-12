@@ -2,7 +2,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height:100vh
+    min-height:100vh;
+    flex-direction: column;
+    background-color: #ccfefe;
+}
+
+.front{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px 0;
 }
 
 
@@ -64,4 +74,109 @@ body {
     font-size: large;
     margin: 0;
     font-family: "Papyrus";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    font-size: large;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;  /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+
+}
+
+.project {
+    background-color: #ffffff;  /* White background for each project */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for project titles */
+.project h2 {
+    color: #004d66;
+    font-size: 1.8em;
+}
+
+/* Styling for the project description */
+.project p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the GitHub buttons */
+.project button {
+    background-color: #004d66;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the GitHub buttons */
+.project button:hover {
+    background-color: #006699;
+}
+
+.welcome {
+    font-size: x-large;
+}
+
+.skills-section h2 {
+    color: #004d66;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Styling for the unordered lists */
+ul {
+    list-style-type: none;  /* Remove default list markers */
+    padding: 0;
+}
+
+/* Styling for each list item */
+ul li {
+    font-size: 1.2em;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Add spacing and box-shadow to each section */
+.skills-section {
+    background-color: #ffffff;  /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.volunteering {
+    list-style-type:disc;
 }
