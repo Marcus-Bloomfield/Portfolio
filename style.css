@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh
+}
+
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.projects-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.circle-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 60px 40px 0px ;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 40px 60px ;
+}
+
+.about-me {
+    margin-bottom: 15px;
+}
+
+.about-me:hover + .circle .fade-in-image {
+    opacity: 100%;
+    transition: opacity 1s;
+}
+
+.circle .fade-in-image {
+    opacity: 0%;
+    transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+}
+
+.selectors {
+    font-size: large;
+    margin: 0;
+    font-family: "Papyrus";
+}
