@@ -99,7 +99,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #ffffff;  /* White background for sections */
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -108,7 +108,7 @@ h1 {
 }
 
 .project {
-    background-color: #ffffff;  /* White background for each project */
+    background-color: #ffffff; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
@@ -116,19 +116,16 @@ h1 {
     text-align: center;
 }
 
-/* Styling for project titles */
 .project h2 {
     color: #004d66;
     font-size: 1.8em;
 }
 
-/* Styling for the project description */
 .project p {
     font-size: 1.1em;
     margin-bottom: 20px;
 }
 
-/* Styling for the GitHub buttons */
 .project button {
     background-color: #004d66;
     color: white;
@@ -140,7 +137,6 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the GitHub buttons */
 .project button:hover {
     background-color: #006699;
 }
@@ -155,22 +151,19 @@ h1 {
     margin-top: 20px;
 }
 
-/* Styling for the unordered lists */
 ul {
-    list-style-type: none;  /* Remove default list markers */
+    list-style-type: none;
     padding: 0;
 }
 
-/* Styling for each list item */
 ul li {
     font-size: 1.2em;
     margin: 8px 0;
     line-height: 1.6;
 }
 
-/* Add spacing and box-shadow to each section */
 .skills-section {
-    background-color: #ffffff;  /* White background for sections */
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
