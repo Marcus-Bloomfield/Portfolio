@@ -16,6 +16,8 @@ function App() {
         <LazySection id="hero">
           <HeroSection />
         </LazySection>
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
         <LazySection id="about">
           <AboutSection />
         </LazySection>
