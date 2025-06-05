@@ -1,7 +1,7 @@
 {
   "name": "marcus-bloomfield-portfolio",
   "version": "0.1.0",
-  "homepage": "https://marcus-bloomfield.github.io",
+  "homepage": "https://marcus-bloomfield.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
