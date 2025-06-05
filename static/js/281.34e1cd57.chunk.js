@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmarcus_bloomfield_portfolio=self.webpackChunkmarcus_bloomfield_portfolio||[]).push([[281],{281:(o,e,t)=>{t.r(e),t.d(e,{default:()=>l});var u=t(579);function l(){return(0,u.jsx)("section",{id:"about",children:"About Content"})}}}]);
-//# sourceMappingURL=281.34e1cd57.chunk.js.map
